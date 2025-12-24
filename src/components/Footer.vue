@@ -10,15 +10,12 @@ const copyright_year = ref(new Date().getFullYear())
 </template>
 
 <style scoped>
-
-     footer{
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 20px;
-  } 
-  footer p{
-    color: blue;
-  }
-
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
 
 </style>

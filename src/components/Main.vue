@@ -12,11 +12,23 @@
     </main>
 </template>
 
-    <style scoped>
-      main h1{
-    display: block;
-  }
-  main a{
-    color: #42B883;
-  }
-  </style>
+<style scoped>
+main {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+main h1 {
+  margin-bottom: 0.5rem;
+}
+
+main p {
+  margin-top: 0;
+}
+
+
+</style>

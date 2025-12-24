@@ -11,7 +11,13 @@ const emoji = ref("👋")
 </template>
 
 <style scoped>
-    header span{
-        font-size: 3rem;
-    }
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+
 </style>
