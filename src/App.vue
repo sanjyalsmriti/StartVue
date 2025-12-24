@@ -1,44 +1,16 @@
 <script setup>
-  import {ref} from 'vue'
-  const name = ref('Smiriti')
-const emoji = ref("👋")
-const copyright_year = ref('2025')
+import {ref} from 'vue'
+import Header from '@/components/Header.vue';
+import Main from '@/components/Main.vue';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
-  <header>
-    <span>{{ emoji }}</span>
-  </header>
-
-  <main>
-    <h1>Hello, {{ name }}!</h1>
-<p>iam about to learn <a href="https://vuejs.org/" target="_blank">Vue.js</a></p>
-  </main>
-
-  <footer>
-    <p> &copy; {{copyright_year}}</p>
-  </footer>
+<Header />
+<Main />
+<Footer />
 
 </template>
 
 <style scoped>
-  header span{
-    font-size: 3rem;
-  }
-  main h1{
-    display: block;
-  }
-  main a{
-    color: #42B883;
-  }
-  footer{
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 20px;
-  } 
-  footer p{
-    color: blue;
-  }
-
-
-</style>
+ </style>
